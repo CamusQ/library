@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>$Title$</title>
-    <link rel="stylesheet" href="layui/css/layui.css"  media="all">
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
 </head>
 <body>
 
@@ -20,13 +20,47 @@
             <button class="layui-btn layui-btn-warm layui-btn-radius">注销</button>
         </a>
     </div>
+    <div>
+
+        <table class="layui-hide" id="test"></table>
+
+        <script type="text/html" id="barDemo">
+            <a class="layui-btn layui-btn-xs" lay-event="borrow">借阅</a>
+        </script>
+
+    </div>
 </div>
+
+
 
 <script src="layui/layui.js" charset="utf-8"></script>
 <script>
-    layui.use(['form'], function(){
-        var form = layui.form;
+    layui.use('table', function () {
+        var table = layui.table;
 
+        table.render({
+            elem: '#test'
+            , url: 'book.do'
+            , title: '图书列表'
+            , cols: [[
+                {field: 'id', width: 100, title: '图书编号', sort: true}
+                , {field: 'name', width: 150, title: '图书名称'}
+                , {field: 'author', width: 100, title: '作者'}
+                , {field: 'publish', width: 180, title: '出版社'}
+                , {field: 'pages', width: 100, title: '图书页数', sort: true}
+                , {field: 'price', width: 100, title: '价格', sort: true}
+                , {field: 'bookCaseName', width: 170, title: '分类'}
+                , {fixed: 'right', title: '操作', toolbar: '#barDemo', width: 100}
+            ]]
+            , page: true
+        });
+
+        table.on('tool(test)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'borrow') {
+                window.location.href = "book.do?method=borrow&bookid=" + data.id;
+            }
+        });
 
     });
 </script>

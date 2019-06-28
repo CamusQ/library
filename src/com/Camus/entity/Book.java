@@ -11,6 +11,8 @@ public class Book {
     private String publish;
     private int pages;
     private double price;
+    private int bookcaseid;
+    private String bookCaseName;
 
     @Override
     public String toString() {
@@ -21,6 +23,7 @@ public class Book {
                 ", publish='" + publish + '\'' +
                 ", pages=" + pages +
                 ", price=" + price +
+                ", bookcaseid=" + bookcaseid +
                 '}';
     }
 
@@ -71,4 +74,21 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public int getBookcaseid() {
+        return bookcaseid;
+    }
+
+    public void setBookcaseid(int bookcaseid) {
+        this.bookcaseid = bookcaseid;
+    }
+
+    public String getBookCaseName() {
+        return bookCaseName;
+    }
+
+    public void setBookCaseName(String bookCaseName) {
+        this.bookCaseName = bookCaseName;
+    }
+
 }

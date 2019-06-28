@@ -1,38 +1,34 @@
 package com.Camus.repository.impl;
 
-import com.Camus.entity.Book;
-import com.Camus.repository.BookRepository;
+import com.Camus.entity.BookCase;
 import com.Camus.util.JDBCTools;
 import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.List;
 
 /**
  * @auther camus
- * date 2019/6/26 20:18
+ * date 2019/6/28 16:43
  */
-public class BookRepositoryImpl implements BookRepository {
+public class BookCaseRepositoryImpl implements com.Camus.repository.BookCaseRepository {
 
     QueryRunner queryRunner = new QueryRunner();
 
     @Override
-    public List<Book> findAll() {
+    public BookCase find(int id) {
         Connection conn = JDBCTools.getConnection();
-        List<Book> bookList = null;
-        String sql = "select * from book";
-
+        BookCase bookCase = null;
+        String sql = "select * from bookcase where id = ?";
         try {
-            bookList = queryRunner.query(conn, sql, new BeanListHandler<>(Book.class));
+            bookCase = queryRunner.query(conn, sql, new BeanHandler<>(BookCase.class),id);
 
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             JDBCTools.release(conn, null, null);
         }
-        return bookList;
-
+        return bookCase;
     }
 }

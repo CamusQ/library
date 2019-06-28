@@ -1,8 +1,11 @@
 package com.Camus.controller;
 
 import com.Camus.entity.Book;
+import com.Camus.entity.BookVO;
 import com.Camus.service.BookService;
 import com.Camus.service.impl.BookServiceImpl;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -25,7 +28,14 @@ public class BookServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setContentType("text/json;charset=utf-8");//解决乱码问题
         List<Book> bookList = bookService.findAll();
-        System.out.println(bookList);
+        BookVO bookVO = new BookVO();
+        bookVO.setCode(0);
+        bookVO.setMsg("");
+        bookVO.setCount(100);
+        bookVO.setData(bookList);
+        JSONObject jsonObject = JSONObject.fromObject(bookVO);
+        resp.getWriter().write(jsonObject.toString());
     }
 }

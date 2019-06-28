@@ -6,13 +6,46 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1902df6d-0fa5-4e19-b74b-0d998a1c1623" name="Default Changelist" comment="" />
+    <list default="true" id="1902df6d-0fa5-4e19-b74b-0d998a1c1623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mylibrary_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mylibrary_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22b999f3-6c2e-4d6b-894d-7348d78fba07.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc970272-c2f3-4fd6-8422-2eea4cc0c106.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mylibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/META-INF/mylibrary.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/controller/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/controller/BookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/repository/impl/BookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/WEB-INF/classes/com/Camus/repository/impl/BookRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mylibrary_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/controller/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/controller/BookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/repository/impl/BookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/repository/impl/BookRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mylibrary/com/Camus/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Camus/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Camus/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,28 +78,72 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="333">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="278">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookCaseRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/console_2.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,6 +158,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>layui-btn-xs</find>
+      <find>layui-btn</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,20 +184,26 @@
         <option value="$PROJECT_DIR$/src/com/Camus/entity/BookAdmin.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/com/Camus/controller/AccountServlet.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/filter/AccountFilter.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/filter/ReaderFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/com/Camus/entity/Book.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/repository/impl/ReaderRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/Camus/entity/BookVO.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/com/Camus/entity/BookCase.java" />
+        <option value="$PROJECT_DIR$/src/com/Camus/repository/BookCaseRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/Camus/repository/impl/BookCaseRepository.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/Camus/entity/Book.java" />
       </list>
     </option>
   </component>
@@ -136,17 +228,22 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="11" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="6" />
+    <option name="y" value="42" />
     <option name="width" value="1346" />
-    <option name="height" value="707" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +275,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Camus" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Camus" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,14 +291,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Camus" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Camus" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,46 +323,35 @@
               <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="redshift&#10;mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taotao-parent" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/81_二阶段项目-2/library" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25632185" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEAWorkPlace\mylibrary\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkPlace\mylibrary\web\WEB-INF\lib" />
       <recent name="E:\IDEAWorkPlace\mylibrary\web" />
       <recent name="E:\IDEAWorkPlace\mylibrary\src" />
-      <recent name="E:\IDEAWorkPlace\mylibrary\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkPlace\mylibrary\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,6 +383,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -330,12 +449,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561529407623</updated>
-      <workItem from="1561529409836" duration="20852000" />
+      <workItem from="1561529409836" duration="22973000" />
+      <workItem from="1561556011288" duration="326000" />
+      <workItem from="1561556584049" duration="883000" />
+      <workItem from="1561558410626" duration="1867000" />
+      <workItem from="1561590395723" duration="2405000" />
+      <workItem from="1561594239349" duration="292000" />
+      <workItem from="1561595153459" duration="2970000" />
+      <workItem from="1561598514891" duration="737000" />
+      <workItem from="1561600230952" duration="18000" />
+      <workItem from="1561617916697" duration="1981000" />
+      <workItem from="1561686133697" duration="503000" />
+      <workItem from="1561703646563" duration="11823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20852000" />
+    <option name="totallyTimeSpent" value="46778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,43 +477,78 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="6" y="42" width="1346" height="698" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29937792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32998326" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32998326" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32998326" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32998326" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998326" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.32998326" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3919598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42962962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998326" />
-      <window_info anchor="right" id="Maven" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" weight="0.3290469" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32998326" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998326" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32998326" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32998326" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998326" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32970452" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3281493" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27604976" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39259258" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998326" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32998326" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32998326" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998326" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32998326" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32998326" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998326" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3290469" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -410,37 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.SCHEMA:mylibrary">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.SCHEMA:mylibrary</OriginalElement>
-          <nodes>
-            <node x="0.0" y="381.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.returnbook</node>
-            <node x="210.0" y="381.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.bookadmin</node>
-            <node x="190.0" y="0.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.borrow</node>
-            <node x="406.0" y="0.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.reader</node>
-            <node x="0.0" y="124.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.book</node>
-            <node x="6.0" y="0.0">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.bookcase</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.book" target="7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.bookcase">
-              <point x="0.0" y="-106.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="117.5" y="262.0" />
-          <SelectedNodes>
-            <node>7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.book</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/layui/css/modules/layer/default/layer.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -449,9 +583,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/layui/css/modules/layer/default/icon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar!/org/apache/commons/dbutils/handlers/BeanHandler.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,28 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <element signature="e#348#353#0" expanded="true" />
-            <element signature="e#368#373#0" expanded="true" />
-            <element signature="e#396#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Camus/controller/AccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
@@ -570,9 +679,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Camus/filter/ReaderFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="270">
           <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -580,21 +699,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/controller/AccountServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="467">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mylibrary/com/Camus/controller/BookServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/entity/BookVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52210" selection-start-line="1" selection-start-column="52210" selection-end-line="1" selection-end-column="52210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/entity/BookCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/BookCaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.SCHEMA:mylibrary">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.SCHEMA:mylibrary</OriginalElement>
+          <nodes>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.returnbook</node>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.bookadmin</node>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.borrow</node>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.reader</node>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.book</node>
+            <node x="" y="">7e5dbb67-c69b-4d46-9e3a-5365462b5ca8.TABLE:mylibrary.bookcase</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7238970588235295" x="546.0523530767753" y="129.78297586761215" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="159" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e5dbb67-c69b-4d46-9e3a-5365462b5ca8/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Camus/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,60 +838,17 @@
     <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Camus/entity/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookCaseRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookAdminRespositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Camus/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="346">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -674,39 +865,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookAdminRespositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Camus/repository/impl/BookRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="-34">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Camus/controller/BookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="333">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding>
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Camus/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -743,7 +953,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (mylibrary)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -755,10 +965,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>@types/jquery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25632185" />
               </list>
             </option>
           </splitter-proportions>
@@ -766,10 +977,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25632185" />
               </list>
             </option>
           </splitter-proportions>
@@ -777,10 +989,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>mylibrary</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25632185" />
               </list>
             </option>
           </splitter-proportions>
