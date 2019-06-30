@@ -20,6 +20,15 @@
         <url-pattern>/book.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>reader</servlet-name>
+        <servlet-class>com.Camus.controller.ReaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reader</servlet-name>
+        <url-pattern>/reader.do</url-pattern>
+    </servlet-mapping>
+
 
 <!--    配置过滤器，防止直接登入index-->
     <filter>

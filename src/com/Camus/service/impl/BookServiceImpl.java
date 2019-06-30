@@ -7,7 +7,9 @@ import com.Camus.repository.BookRepository;
 import com.Camus.repository.impl.BookCaseRepositoryImpl;
 import com.Camus.repository.impl.BookRepositoryImpl;
 import com.Camus.service.BookService;
+import com.Camus.util.JDBCTools;
 
+import java.sql.Connection;
 import java.util.List;
 
 /**
@@ -20,8 +22,9 @@ public class BookServiceImpl implements BookService {
     BookCaseRepository bookCaseRepository = new BookCaseRepositoryImpl();
 
     @Override
-    public List<Book> findAll() {
-        List<Book> bookList = bookRepository.findAll();
+    public List<Book> findAll(int page,int limit) {
+        page = (page - 1) * limit;
+        List<Book> bookList = bookRepository.findAll(page,limit);
         for (Book book : bookList) {
             int BookCaseId = book.getBookcaseid();
             BookCase bookCase = bookCaseRepository.find(BookCaseId);
@@ -29,4 +32,22 @@ public class BookServiceImpl implements BookService {
         }
         return bookList;
     }
+
+    @Override
+    public int count() {
+        return bookRepository.count();
+    }
+
+    @Override
+    public void borrow(int bookId, int readerId, String borrowTime, String returnTime, int state) {
+        bookRepository.borrow(bookId, readerId, borrowTime, returnTime, state);
+        bookRepository.updateState(bookId,state);
+    }
+
+    @Override
+    public void updateState(int id, int state) {
+        bookRepository.updateState(id, state);
+    }
+
+
 }

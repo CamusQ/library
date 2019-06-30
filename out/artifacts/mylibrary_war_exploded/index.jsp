@@ -20,20 +20,17 @@
             <button class="layui-btn layui-btn-warm layui-btn-radius">注销</button>
         </a>
     </div>
-    <div>
 
-        <table class="layui-hide" id="test"></table>
+    <table class="layui-hide" id="test" lay-filter="borrow"></table>
 
-        <script type="text/html" id="barDemo">
-            <a class="layui-btn layui-btn-xs" lay-event="borrow">借阅</a>
-        </script>
+    <script type="text/html" id="barDemo">
+        <a class="layui-btn layui-btn-xs" lay-event="borrow">借阅</a>
+    </script>
 
-    </div>
 </div>
 
-
-
 <script src="layui/layui.js" charset="utf-8"></script>
+
 <script>
     layui.use('table', function () {
         var table = layui.table;
@@ -50,18 +47,19 @@
                 , {field: 'pages', width: 100, title: '图书页数', sort: true}
                 , {field: 'price', width: 100, title: '价格', sort: true}
                 , {field: 'bookCaseName', width: 170, title: '分类'}
-                , {fixed: 'right', title: '操作', toolbar: '#barDemo', width: 100}
+                , {fixed: 'right', title: '操作', event: 'borrow', toolbar: '#barDemo', width: 100}
             ]]
             , page: true
         });
 
-        table.on('tool(test)', function (obj) {
+        table.on('tool(borrow)', function (obj) {
             var data = obj.data;
+
             if (obj.event === 'borrow') {
                 window.location.href = "book.do?method=borrow&bookid=" + data.id;
             }
-        });
 
+        });
     });
 </script>
 </body>

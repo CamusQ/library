@@ -1,6 +1,9 @@
 package com.Camus.repository;
 
+import com.Camus.entity.Borrow;
 import com.Camus.entity.Reader;
+
+import java.util.List;
 
 /**
  * @auther camus
@@ -8,4 +11,5 @@ import com.Camus.entity.Reader;
  */
 public interface ReaderRepository {
     public Reader login(String username,String password);
+    public List<Borrow> findBorrowById(int id);
 }

@@ -11,6 +11,15 @@ public class Reader {
     private String tel;
     private String cardId;
     private String gender;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Override
     public String toString() {
